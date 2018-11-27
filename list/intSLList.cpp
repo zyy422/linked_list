@@ -2,7 +2,7 @@
 
 void IntSLLList::addToHead(int el)
 {
-	head = new IntSLLNode(el,head);	//头部指针移位
+	head = new IntSLLNode(el,head);	//head point moves to new increased node;
 	if (tail == 0)
 	{
 		tail = head;
@@ -17,7 +17,7 @@ void IntSLLList::addToTail(int el)
 		head = tail;
 	}
 	tail->next = new IntSLLNode(el);
-	tail = tail->next;		//尾部指针移位
+	tail = tail->next;		//tail point moves to new increased node
 }
 
 int IntSLLList::deleteFromHead()
