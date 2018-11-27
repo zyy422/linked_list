@@ -20,11 +20,11 @@ int main()
 	my_list.deleteNode(30);
 	if (my_list.isInList(40))
 	{
-		cout << "数据存在" << endl;
+		cout << "Specified number not exist" << endl;
 	}
 	else
 	{
-		cout << "数据不存在" << endl;
+		cout << "Sepcified number exists!" << endl;
 	}
 
 	return 0;
